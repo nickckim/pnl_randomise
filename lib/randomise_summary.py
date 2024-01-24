@@ -2,6 +2,10 @@
 
 print('Importing modules')
 
+# If running with bsub on ERIS, you must include the following two lines:                                                                  
+import sys                                                                         
+sys.path.append("/data/pnl/kcho/PNLBWH/fsl_randomise/lib/")   
+
 import argparse
 import os
 # corrp file
